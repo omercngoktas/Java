@@ -1,0 +1,17 @@
+{"firstName":"Furkan","lastName":"Özdemir","transcript":[
+  {"TRD121":"DD","CSE1200":"CB","PHYS1103":"BA","CSE1241":"BB","PHYS1101":"CC","ATA121":"CC","MBG1201":"BB","MATH1001":"BA"},
+
+  {"PHYS1104":"CC","TRD122":"AA","PHYS1102":"DD","NTExxx":"F","CSE1242":"CC","ATA122":"CB","MATH1002":"DD","MATH2256":"DC"},
+  {"MATH2055":"DC","NTExxx":"CB","CSE2023":"CB","MATH2059":"CC","EE2031":"DC","CSE2225":"BB"},
+  {"CSE2246":"AA","ECON2004":"AA","STAT2253":"DC","CSE2138":"CC","EE2032":"AA"},
+
+  {"CSE3215":"F","IE3081":"AA","CSE3055":"DD","CSE3000":"BB","CSE3063":"AA","CSE2260":"F"},
+  {"CSE3215":"BA","CSE3033":"DD","COM2202":"BB","CSE2260":"CC","IE3235":"BB"},
+  {"CSE3038":"CC","UE":"F","CSE3048":"DD","CSE4061":"DC","CSE3044":"F","CSE4288":"DC"},{}],
+  "log":["The advisor didn't approve ECON2004 because of total credit","The advisor didn't approve CSE2260 because of total credit",
+    "The advisor didn't approve CSE3033 because of total credit","The advisor didn't approve CSE3044 because of total credit",
+    "The advisor didn't approve CSE3048 because of total credit","The advisor didn't approve CSE3038 because of total credit",
+    "The advisor didn't approve CSE3264 because of total credit","The advisor didn't allow CSE4219 because student failed prereq. CSE3038",
+    "The advisor didn't approve CSE4074 because of total credit","The advisor didn't approve CSE4297 because of total credit",
+    "The advisor didn't approve CSE4000 because of total credit","The advisor didn't approve ISG121 because of total credit",
+    "The advisor didn't approve CSE3264 because of total credit"],"student_id":"150120151","studentSemester":7}

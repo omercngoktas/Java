@@ -1,0 +1,871 @@
+{
+  "useOldStudents": "false",
+  "semester": "Fall",
+  "stdCountForSemester": "50",
+  "name_male_pool": ["Abdullah","Adem","Ahmet","Ali","Alperen","Arda","Ayhan","Baran","Batuhan","Berat","Burak","Caner","Efe","Emirhan","Emrah","Emre","Enes","Eren","Fatih","Furkan","Gökhan","Hakan","Hüseyin",
+    "İbrahim","İsmail","Kerem","Mehmet","Mert","Metin","Muhammed","Murat","Mustafa","Oğuzhan","Ömer","Onur","Osman","Ramazan","Samet","Serhat","Serkan","Süleyman","Umut","Yaşar","Yiğit","Yunus Emre","Yusuf"],
+  "name_female_pool": ["Aleyna","Aynur","Aysel","Ayşe","Ayten","Azra","Berfin","Betül","Beyza","Büşra","Ceren","Çiğdem","Derya","Elif","Ela","Ecrin","Emine","Esra","Eylül","Fadime","Fatma","Filiz","Gamze",
+    "Gizem","Hacer","Hatice","Hilal","Hülya","İlayda","İrem","Kübra","Leyla","Melek","Melike","Merve","Melisa","Nehir","Nisa","Özlem","Pınar","Rabia","Seda","Selma","Semra","Sıla","Yağmur","Yasemin","Zehra","Zeynep"],
+  "surname_pool": ["Abacı","Akbulut","Akpınar","Aksel","Aslan","Barbaros","Çevik","Dede","Demir","Doğan","Erdem","Erkuran",
+    "Eroğlu","Ertekin","Işık","Kandemir","Kaplan","Karakum","Kartal","Kaya","Koç","Korkmaz","Kulaç","Özdemir","Öztürk","Selvi","Sönmez",
+    "Şahin","Şen","Şentürk","Tahtacı","Uyanık","Vural","Yıldırım","Yılmaz","Yücel"],
+  "numberofadvisors": "10",
+  "ranks": ["Professor","Associate Professor","Assistant professor","Lecturer"],
+  "failProbabiltyPercentage" : "10",
+  "technicalElectivesQuotaRate" : "0.2",
+  "courses": [
+
+    {
+
+      "courseID": "ATA121",
+      "credit": "2",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Tuesday" : "2200-2250"}]
+    }
+  ,
+    {
+
+      "courseID": "MBG1201",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Wednesday" : "1030-1220"}, {"Friday" :  "1130-1220"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE1200",
+      "credit": "4",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Wednesday" : "1300-1350"}, {"Friday" :  "0930-1120"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE1241",
+      "credit": "6",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Monday" : "1030-1220"}, {"Wednesday" : "1400-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "MATH1001",
+      "credit": "6",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Tuesday" : "0830-1020"}, {"Thursday" : "1400-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "PHYS1101",
+      "credit": "4",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Tuesday" : "1500-1550"}, {"Thursday" : "1400-1550"}]
+    }
+  ,
+    {
+
+      "courseID": "PHYS1103",
+      "credit": "2",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Monday" : "0830-1020"}]
+    }
+  ,
+    {
+
+      "courseID": "TRD121",
+      "credit": "2",
+      "prerequisite": "-",
+      "canTakenSemester": "1",
+      "courseProgram": [{"Sunday" : "1500-1650"}]
+    }
+  ,
+    {
+
+      "courseID": "ATA122",
+      "credit": "2",
+      "prerequisite": ["ATA121"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Sunday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "MATH2256",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "2",
+      "courseProgram": [{"Monday" : "1000-1050"}]
+    }
+  ,
+    {
+
+      "courseID": "NTExxx",
+      "credit": "3",
+      "prerequisite": "-",
+      "canTakenSemester": "2",
+      "courseProgram": [{"nte" : "nte"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE1242",
+      "credit": "6",
+      "prerequisite": ["CSE1241"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Monday" : "1100-1250"}, {"Tuesday" :  "1100-1150"}]
+    }
+  ,
+    {
+
+      "courseID": "MATH1002",
+      "credit": "6",
+      "prerequisite": ["MATH1001"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Tuesday" : "1500-1650"},{"Wednesday" : "1700-1750"}]
+    }
+  ,
+    {
+
+      "courseID": "PHYS1102",
+      "credit": "4",
+      "prerequisite": ["PHYS1101"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Monday" : "1400-1650"}]
+    }
+  ,
+    {
+
+      "courseID": "PHYS1104",
+      "credit": "2",
+      "prerequisite": ["PHYS1103"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Monday" : "1400-1550"}]
+    }
+  ,
+    {
+
+      "courseID": "TRD122",
+      "credit": "2",
+      "prerequisite": ["TRD121"],
+      "canTakenSemester": "2",
+      "courseProgram": [{"Saturday" : "0900-1050"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE2023",
+      "credit": "6",
+      "prerequisite": "-",
+      "canTakenSemester": "3",
+      "courseProgram": [{"Monday" : "1300-1450"}, {"Wednesday" : "1600-1650"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE2225",
+      "credit": "7",
+      "prerequisite": ["CSE1242"],
+      "canTakenSemester": "3",
+      "courseProgram": [{"Monday" : "1400-1550"}, {"Wednesday" : "1500-1550"}]
+    }
+  ,
+
+    {
+
+      "courseID": "ECON2004",
+      "credit": "4",
+      "prerequisite": "-",
+      "canTakenSemester": "3",
+      "courseProgram": [{"Tuesday" : "1800-1950"}]
+    },
+
+    {
+
+      "courseID": "EE2031",
+      "credit": "5",
+      "prerequisite": ["PHYS1102"],
+      "canTakenSemester": "3",
+      "courseProgram": [{"Tuesday" : "1300-1450"}, {"Thursday" : "1400-1450"}]
+    },
+
+    {
+
+      "courseID": "MATH2055",
+      "credit": "4",
+      "prerequisite": "-",
+      "canTakenSemester": "3",
+      "courseProgram": [{"Monday" : "0930-1020"}, {"Wednesday" : "0830-1020"}]
+    },
+
+
+    {
+      "courseID": "MATH2059",
+      "credit": "4",
+      "prerequisite": ["MATH1001"],
+      "canTakenSemester": "3",
+      "courseProgram": [{"Tuesday" : "1500-1650"}, {"Thursday" : "1500-1550"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE2246",
+      "credit": "6",
+      "prerequisite": ["CSE2225"],
+      "canTakenSemester": "4",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE2138",
+      "credit": "7",
+      "prerequisite": ["CSE1242"],
+      "canTakenSemester": "4",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE2260",
+      "credit": "6",
+      "prerequisite": ["CSE1242"],
+      "canTakenSemester": "4",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "EE2032",
+      "credit": "5",
+      "prerequisite": ["EE2031"],
+      "canTakenSemester": "4",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "STAT2253",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "4",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE3000",
+      "credit": "10",
+      "prerequisite": "-",
+      "canTakenSemester": "5",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+
+    {
+
+      "courseID": "CSE3215",
+      "credit": "6",
+      "prerequisite": "-",
+      "canTakenSemester": "5",
+      "courseProgram": [{"Tuesday" : "1030-1230"}, {"Thursday" : "0930-1020"}]
+    },
+
+    {
+
+      "courseID": "CSE3033",
+      "credit": "7",
+      "prerequisite": ["CSE2225"],
+      "canTakenSemester": "5",
+      "courseProgram": [{"Monday" : "1130-1220"}, {"Friday" : "1030-1220"}]
+    },
+    {
+
+      "courseID": "CSE3055",
+      "credit": "7",
+      "prerequisite": ["CSE2225"],
+      "canTakenSemester": "5",
+      "courseProgram": [{"Wednesday" : "1030-1220"}, {"Friday" : "1500-1550"}]
+    },
+
+    {
+
+      "courseID": "CSE3063",
+      "credit": "5",
+      "prerequisite": ["CSE1242"],
+      "canTakenSemester": "5",
+      "courseProgram": [{"Monday" : "0930-1120"}, {"Tuesday" : "0930-1020"}]
+    },
+
+    {
+
+      "courseID": "IE3081",
+      "credit": "4",
+      "prerequisite": ["STAT2253"],
+      "canTakenSemester": "5",
+      "courseProgram": [{"Thursday" : "1030-1220"}, {"Friday" : "0930-1020"}]
+    }
+  ,
+
+    {
+
+      "courseID": "CSE3038",
+      "credit": "7",
+      "prerequisite": ["CSE2138"],
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+    {
+
+      "courseID": "CSE3044",
+      "credit": "7",
+      "prerequisite": ["CSE3055"],
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+    {
+
+      "courseID": "CSE3048",
+      "credit": "5",
+      "prerequisite": ["MATH2055"],
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+    {
+
+      "courseID": "CSE3264",
+      "credit": "5",
+      "prerequisite": ["CSE2023"],
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+    {
+
+      "courseID": "IE3235",
+      "credit": "4",
+      "prerequisite": ["MATH2256"],
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "COM2202",
+      "credit": "2",
+      "prerequisite": "-",
+      "canTakenSemester": "6",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+    {
+
+      "courseID": "CSE4000",
+      "credit": "10",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "CSE4074",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Monday" : "1500-1550"}, {"Thursday" : "1400-1550"}]
+    },
+
+    {
+
+      "courseID": "CSE4219",
+      "credit": "6",
+      "prerequisite": ["CSE3038"],
+      "canTakenSemester": "7",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    },
+
+    {
+
+      "courseID": "CSE4297",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Saturday" : "0830-1020"}]
+    },
+
+    {
+
+      "courseID": "ISG121",
+      "credit": "2",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Saturday" : "1300-1450"}]
+    },
+
+    {
+
+      "courseID": "CSE4288",
+      "credit": "5",
+      "prerequisite": ["MATH2256"],
+      "canTakenSemester": "7",
+      "courseProgram": [{"Tuesday" : "1030-1220"}, {"Friday" : "1600-1650"}]
+    },
+
+    {
+
+      "courseID": "TE1",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "UE",
+      "credit": "3",
+      "prerequisite": "-",
+      "canTakenSemester": "7",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "CSE4298",
+      "credit": "5",
+      "prerequisite": ["CSE4297"],
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "ISG122",
+      "credit": "2",
+      "prerequisite": ["ISG121"],
+      "canTakenSemester": "8",
+      "courseProgram": [{"Saturday" : "1600-1750"}]
+    }
+  ,
+
+    {
+
+      "courseID": "NTExxx",
+      "credit": "3",
+      "prerequisite": "-",
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "FTExxx",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "TExxx",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "TExxx",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+  ,
+
+    {
+
+      "courseID": "TExxx",
+      "credit": "5",
+      "prerequisite": "-",
+      "canTakenSemester": "8",
+      "courseProgram": [{"Tuesday" : "1300-1450"}]
+    }
+
+
+
+
+
+
+
+
+  ],
+  "technicelElectiveCourses": [
+    {
+
+      "courseID": "CSE4075",
+      "credit": "5",
+      "prerequisite": [
+        "CSE4074"
+      ],
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    },
+    {
+
+      "courseID": "CSE4034",
+      "credit": "5",
+      "prerequisite": [
+        "CSE3033"
+      ],
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    },
+    {
+      "courseID": "CSE4061",
+      "credit": "5",
+      "prerequisite": [
+        "CSE3264"
+      ],
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4217",
+      "credit": "5",
+      "prerequisite": [
+        "CSE3038"
+      ],
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4026",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4032",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4038",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4040",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4053",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4056",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4057",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4058",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4059",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4061",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4062",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4063",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4065",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4066",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4067",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4070",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4096",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4082",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4083",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4084",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4085",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4086",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4093",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4094",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+  ,
+    {
+      "courseID": "CSE4095",
+      "credit": "5",
+      "prerequisite":
+      "-"
+    ,
+      "canTakenSemester": "00",
+      "courseProgram": {
+        "Tuesday": "1300-1450"
+      }
+    }
+
+
+
+
+  ]
+}
