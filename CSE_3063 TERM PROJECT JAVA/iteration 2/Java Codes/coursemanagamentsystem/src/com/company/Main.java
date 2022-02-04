@@ -31,11 +31,7 @@ public class Main {
         List<String> surname_pool = (List<String>) input.get("surname_pool");
         List<String> ranks = (List<String>) input.get("ranks");
 
-
-
-
         System.out.println("\nSystem online....");
-
 
         Department department = new Department();
 
@@ -45,12 +41,14 @@ public class Main {
         System.out.println("Courses initialized...");
         department.createAdvisor(name_male_pool,name_female_pool,surname_pool,ranks,numberOfAdvisors);
         System.out.println("Advisors initialized...");
+
         if(useOldStudents == false){
             department.createStudent(numberOfStudentsForASemester,name_male_pool,name_female_pool,surname_pool,semesterKey);
             System.out.println("Students initialized...");
             department.startSimulation(failProbabiltyPercentage);
             department.system_output_students();
-        }else {
+        }
+        else {
             File students = new File("src/Students");
             System.out.println("Students loading...");
             department.usedStudentsTransfer(students);

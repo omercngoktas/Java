@@ -145,14 +145,6 @@ class Student extends Person{
             this.registrationCart.decTotalCredit(remreg.getCourse().getCredit());
             System.out.println(remreg.getCourse().getCourseID() + " reglerden çıkarıldı");
         }
-
-
-
-
-//        for (var vv:this.registrationCart.getRegistrations()){
-//            System.out.println(vv.getCourse().getCourseID());
-//        }
-
     }
 
     public void takeTE(List<Course> list){
@@ -162,7 +154,6 @@ class Student extends Person{
                 telist.add(searchc);
             }
         }
-
 
         List<Registration> willberemoved = new ArrayList<Registration>();
         List<Registration> willbeadded = new ArrayList<Registration>();
@@ -202,7 +193,6 @@ class Student extends Person{
         {
             this.getRegistrationCart().getRegistrations().add(gg);
         }
-
     }
 
 
@@ -226,8 +216,6 @@ class Student extends Person{
                 System.out.println("In passive courses " + tempreg.getCourse().getCourseID() + " added to cart.");
             }
         }
-
-
     }
 
     public void calculateGrades(int failProbabiltyPercentage){
@@ -270,8 +258,6 @@ class Student extends Person{
                         if(65<=rand && rand<=74){cursem.setGrades(currentcourse,"CC");}
                         if(55<=rand && rand<=64){cursem.setGrades(currentcourse,"DC");}
                         if(50<=rand && rand<=54){cursem.setGrades(currentcourse,"DD");}
-
-
                     }
                 }
             }
@@ -279,5 +265,3 @@ class Student extends Person{
         this.activeCourses.clear();
     }
 }
-
-

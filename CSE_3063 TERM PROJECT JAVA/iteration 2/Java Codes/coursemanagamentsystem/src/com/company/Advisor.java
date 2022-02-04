@@ -39,7 +39,7 @@ class Advisor extends Person {
 
     int checkRegistrationCart(Student student, int failProbabiltyPercentage){
         System.out.println("------------------------------------------");
-        System.out.println(student.getName() + " " + student.getSurname() + " " + student.getCurentsemester().getNumberOfSemester());
+        System.out.println(student.getName() + " " + student.getSurname() + " " + student.getCurent ().getNumberOfSemester());
         for (int i = 0;i<student.getRegistrationCart().getRegistrations().size();i++) { // reg cart içersinde gez
             var curreg = student.getRegistrationCart().getRegistrations().get(i); //şu an ki registration
             var curcourse = curreg.getCourse(); //şu an ki reg içerisindeki kurs
