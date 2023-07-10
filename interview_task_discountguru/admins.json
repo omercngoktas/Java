@@ -1,0 +1,67 @@
+{
+    "admins": [
+      {
+        "username": "admin",
+        "password": "123",
+        "firstName": "Admin",
+        "lastName": "One",
+        "email": "admin1@example.com",
+        "role": "Admin",
+        "phone": "1234567890"
+      },
+      {
+        "username": "admin2",
+        "password": "adminpass2",
+        "firstName": "Admin",
+        "lastName": "Two",
+        "email": "admin2@example.com",
+        "role": "Admin",
+        "phone": "9876543210"
+      },
+      {
+        "username": "admin3",
+        "password": "adminpass3",
+        "firstName": "Admin",
+        "lastName": "Three",
+        "email": "admin3@example.com",
+        "role": "Admin",
+        "phone": "5555555555"
+      },
+      {
+        "username": "admin4",
+        "password": "adminpass4",
+        "firstName": "Admin",
+        "lastName": "Four",
+        "email": "admin4@example.com",
+        "role": "Admin",
+        "phone": "1111111111"
+      },
+      {
+        "username": "admin5",
+        "password": "adminpass5",
+        "firstName": "Admin",
+        "lastName": "Five",
+        "email": "admin5@example.com",
+        "role": "Admin",
+        "phone": "2222222222"
+      },
+      {
+        "username": "admin6",
+        "password": "adminpass6",
+        "firstName": "Admin",
+        "lastName": "Six",
+        "email": "admin6@example.com",
+        "role": "Admin",
+        "phone": "3333333333"
+      },
+      {
+        "username": "admin7",
+        "password": "adminpass7",
+        "firstName": "Admin",
+        "lastName": "Seven",
+        "email": "admin7@example.com",
+        "role": "Admin",
+        "phone": "4444444444"
+      }
+    ]
+}
