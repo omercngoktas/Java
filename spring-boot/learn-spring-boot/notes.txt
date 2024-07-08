@@ -1,0 +1,7 @@
+trace
+debug
+info
+warning
+error
+
+off
