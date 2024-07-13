@@ -1,4 +1,4 @@
-package com.omercngoktas.order_service.model;
+package com.omercngoktas.inventory_service.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,24 +6,22 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-import java.math.BigDecimal;
-
 @Entity
-@Table(name = "t_order_line_items")
-public class OrderLineItems {
+@Table(name = "t_inventory")
+public class Inventory {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String skuCode;
-    private BigDecimal price;
     private Integer quantity;
 
-    public OrderLineItems() {
+    public Inventory() {
     }
 
-    public OrderLineItems(String skuCode, BigDecimal price, Integer quantity) {
+    public Inventory(String skuCode, Integer quantity) {
         this.skuCode = skuCode;
-        this.price = price;
         this.quantity = quantity;
     }
 
@@ -43,14 +41,6 @@ public class OrderLineItems {
         this.skuCode = skuCode;
     }
 
-    public BigDecimal getPrice() {
-        return price;
-    }
-
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
-
     public Integer getQuantity() {
         return quantity;
     }
@@ -61,7 +51,6 @@ public class OrderLineItems {
 
     @Override
     public String toString() {
-        return "OrderLineItems [id=" + id + ", skuCode=" + skuCode + ", price=" + price + ", quantity=" + quantity
-                + "]";
+        return "Inventory [id=" + id + ", skuCode=" + skuCode + ", quantity=" + quantity + "]";
     }
 }

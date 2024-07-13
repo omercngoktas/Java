@@ -1,27 +1,18 @@
-package com.omercngoktas.order_service.model;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+package com.omercngoktas.order_service.dto;
 
 import java.math.BigDecimal;
 
-@Entity
-@Table(name = "t_order_line_items")
-public class OrderLineItems {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class OrderLineItemsDto {
     private Long id;
     private String skuCode;
     private BigDecimal price;
     private Integer quantity;
 
-    public OrderLineItems() {
+    public OrderLineItemsDto() {
     }
 
-    public OrderLineItems(String skuCode, BigDecimal price, Integer quantity) {
+    public OrderLineItemsDto(Long id, String skuCode, BigDecimal price, Integer quantity) {
+        this.id = id;
         this.skuCode = skuCode;
         this.price = price;
         this.quantity = quantity;
@@ -61,7 +52,7 @@ public class OrderLineItems {
 
     @Override
     public String toString() {
-        return "OrderLineItems [id=" + id + ", skuCode=" + skuCode + ", price=" + price + ", quantity=" + quantity
+        return "OrderLineItemsDto [id=" + id + ", skuCode=" + skuCode + ", price=" + price + ", quantity=" + quantity
                 + "]";
     }
 }
