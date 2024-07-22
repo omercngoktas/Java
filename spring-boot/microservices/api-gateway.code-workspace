@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "api-gateway"
+		},
+		{
+			"path": "currency-conversion-service"
+		},
+		{
+			"path": "currency-exchange-service"
+		},
+		{
+			"path": "naming-server"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
